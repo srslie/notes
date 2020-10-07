@@ -22,7 +22,7 @@
 ```
 **How do you create an object using literal notation?**
 
-You use key-value pairs to denote the properties of the object, with the (keyName, colon, value,) and commas after each pair and wrapped in the curly braces:
+  You use key-value pairs to denote the properties of the object, with the (keyName, colon, value,) and commas after each pair and wrapped in the curly braces:
 ```
   var objectName = {
     key: 'pairValue',
@@ -34,21 +34,21 @@ You use key-value pairs to denote the properties of the object, with the (keyNam
 ```
 **What is an object and what is it made up of?**
 
-An object is a data type used to store key-value pairs, or properties, and function to be used on those properties, or methods.
+  An object is a data type used to store key-value pairs, or properties, and function to be used on those properties, or methods.
 
 **When we assign a function as the value of a key inside an object, what do we call it?**
 
-We call it a method.
+  We call it a method.
 
 ---
 
 **What is a statement?**
 
-A statement is an individual instruction that the computer can follow, often best followed by a semicolon.
+  A statement is an individual instruction that the computer can follow, often best followed by a semicolon.
 
 **What is an expression?**
 
-An expression is a statement that produces a single value. Often the result of operators acting some modification on a value or values to create a single output.It produces a single value, so it can be written wherever a value is expected (like in template literals).
+  An expression is a statement that produces a single value. Often the result of operators acting some modification on a value or values to create a single output.It produces a single value, so it can be written wherever a value is expected (like in template literals).
 
 **Give examples of both.**
 
@@ -67,20 +67,50 @@ An expression could be:
 ```
 **Has your understanding of the differences between statements and expressions changed at all?**
 
-Yes, all expressions are statements but only some statements are expressions. Because an expression returns a value, it can be used in place of a value within code.
+  Yes, all expressions are statements but only some statements are expressions. Because an expression returns a value, it can be used in place of a value within code.
 
 **What questions remain?**
 
-What are all the possible places you can use an expression value?
+  What are all the possible places you can use an expression value?
 
 **Where might you ask that question?**
 
-Google. Stack Overflow. The Slack for our cohort. Class.
+  Google. Stack Overflow. The Slack for our cohort. Class.
 
 ---
 
 **What are the five primitive data types we learned about today?**
+
+  1. boolean
+  2. undefined
+  3. null
+  4. number
+  5. string
+
+  6. symbol (didn't learn about it today)
+
 **How are variables useful and what is an example of one that has a value assigned to it?**
-**Write out an example of string concatenation. **Now write that same example using a template literal.**
+
+  Variables are useful as placeholders for values or operations you want to reference later or in other code, and you don't want to type out the information each time. An example is:```var cat = 'Gracie'```
+
+**Write out an example of string concatenation.**
+```
+  var num = 3
+  'I have ' + num + ' horses!'
+```
+**Now write that same example using a template literal.**
+```
+  var num = 3
+  `I have ${num} horses!`
+```
 **Write out the basic structure of an if/else conditional.**
+```
+  if (condition to be met) {
+    if met, complete this action
+  } else {
+    do this
+  }
+```
 **Write down at least one question you have coming out of this lesson.**
+
+  Why aren't we learning let and const now and using var instead?

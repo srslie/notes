@@ -53,3 +53,16 @@ Example.search(/Alice) or (/^A)
 
 
 ## Glossary <a name="glossary"></a>
+
+Data Type A kind of data, defined by the values it can hold and the operations that can be done on it
+Primitive type A kind of data type. Primitives in Javascript are [string, number, boolean, null, undefined, symbol]. Also know as a simple data type
+Variable A container for a value. The main building block for all programming
+Declare Creating a new variable (distinct from assignment)
+Assignment Assigning a value to a variable
+Concatenation The binding of multiple strings together using the + string operator
+Interpolation The process of injecting a variable directly into a string.
+Template literal Template literals are string literals that provide an easy way to interpolate a variable or expression into a string.
+Operator Symbols that are used to assign, compare, and perform operations
+Statement A single piece of code that accomplishes one task or action
+Expression A statement that produces a value
+Conditional An expression that evaluates to true or false, or a control flow statement that executes code

@@ -1,8 +1,101 @@
 # Turing Journal Reflections
 
 ---
+### Mod 1 - Week 4
 
+**What is the difference between inline, block and inline-block?**
+  Inline is an element that takes up only the space between the tags. Blocks take up the whole width of the parent element container, and can contain inline elements inside of them. Inline blocks behave like inline elements but have added benefits of being able to style them with height and width fixing like a block.
+**List out three elements that are block level by default.**
+  <nav>
+  <form>
+  <p>
+
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#:~:text=By%20default%2C%20block%2Dlevel%20elements,complex%20set%20of%20content%20categories.
+
+**List out three elements that are inline level by default.**
+  <label>
+  <img>
+  <span>
+    https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements
+**Write down at least one question you have about the display property for class tomorrow.**
+What is the run-in box?
+https://developer.mozilla.org/en-US/docs/Web/CSS/display
+
+
+
+### Mod 1 - Week 3
+
+We're making people feel included by and large. Interruption seems like the biggest issue. My biases are generally that people will speak up if they need something, so shyer people may get lost. I also don't feel technically behind so people who are struggling more might have a different experience. I should talk less during class to make space, generally let others take the reins when partnering since I know I'll go do it myself later, be better at delegating tasks/learning during group projects, and make more space for others in peer-peer interactions, especially making sure not to interrupt anyone.
+
+
+On document.querySelectorAll()
+
+**How is this method similar to document.querySelector()?**
+  -They both grab/refer to elements of the html that match the css selector that was given as the argument.
+**How does it differ?**
+  -document.querySelector() only grabs the first matching element from the argument given, the document.querySelectorAll returns all of them.
+**What does document.querySelectorAll() return?**
+  -returns the node list of all the elements matching or children of the selector given as a argument; it's an object similar to an array, but with some methods. It returns a static node list that occurs once the document.querySelectorAll is called. It can be iterated over used array.forEach and converted into an array using array.from
+
+  Also  has this: who knows what it does? document.querySelectorAll(':scope .outer .inner')
+
+  1. all paragraph elements
+  2. the last 2 ps
+
+### Mod 1 - Week 2
+
+**Pseudocoding seems like it slows down the coding process. Why would anyone bother doing it?**
+It helps clarify the steps you need to take and the end goal.
+**What is a benefit of spending your time pseudocoding?**
+It saves time in the long run.
+**What are the characteristics of solid, beneficial pseudocode?**
+Specific, it uses the terms of art, short and concise lines.
+What was helpful about your partners’ pseudocode? What was confusing?
+If you were to explain to a non-developer what pseudocoding is, and if you needed to teach them to be able to pseudocode, what would you tell them?
+
+
+**What is your first reaction to seeing this? Do you want to write code?**
+Yes, I just want to write code.
+**If you were to explain what to do to a very simple, very literal, very well-meaning, helpful, but silly robot, what would you tell it to do?**
+First create a function to iterate through all the elements of the array. In each iteration, create a conditional checking if the length of the string is longer than 5 letters. If the condition is true, splice it out. At the end of iterating, return the array.
+
+Attempt to write some pseudocode!
+
+**What skill do you have that you are proud of? Perhaps a recipe you’re good at, or a sick kick flip on a skateboard, or maybe you’re very good at remembering people’s names, or you play an instrument.**
+Reciting some gud pooitry. Keep cat alive using robots! using tablesaw with smaller woods.
+**Do you remember what it was like when you first began learning the skill?**
+I was bad and it was hard and sometimes demotivating. I kept fucking up and having to restart. Not the cat thing.
+**Although it may feel easy now, or like something you’ve always been good at, push yourself to describe the work you had to put in to achieve proficiency!**
+
+
+**How would you describe HTML to someone who has never heard of it before?**
+Skeleton and content of a webpage.
+**What is an HTML attribute and why would you use one?**
+**Why is it important to be consistent with your use of white space and indentation when writing HTML?**
+**What is the purpose of semantic HTML?**
+**What questions do you still have about HTML?**
 ### Mod 1 - Week 1
+
+**What is your understanding of why testing is important**
+
+It's important as a safety net, making sure everything works as intended. It also makes for better code so that is decoupled (chunked for readability and functionality) and hopefully on target for a desired output.
+
+**What are the steps of TDD?**
+  1. Think and write tests
+  2. red - try to run the test, fail
+  3. green - write the code to pass test
+  4. green - make sure no old tests fail
+  4. green - refactor and pass all tests
+  5. repeat
+
+**What are the benefits to testing your code?**
+**What is the Red/Green testing workflow? Why do we use this process?**
+**What is Mocha? What is Chai? Write an example of the code that comes from Chai.**
+**How do we export something from a file for testing?**
+**How do we import something into another file for testing?**
+
+What is your understanding of why testing is important?
+Explain the steps of TDD in your own words.
 
 **To start, go ahead and make an object or two.**
 ```
